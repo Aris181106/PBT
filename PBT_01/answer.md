@@ -20,7 +20,7 @@ B5: Server gửi HTTP Response
 
 ## Câu A2:
 
-- Trang này bị đánh giá SEO thấp là do lạm dụng quá nhiều thẻ ``<div>`
+- Trang này bị đánh giá SEO thấp là do lạm dụng quá nhiều thẻ `<div>`
 
 - Những lỗi semantic trong code:
 1. `<div class="header">` sửa lại thành `<header>`
@@ -29,18 +29,20 @@ B5: Server gửi HTTP Response
 4. `<div class="footer">` sửa thành `<footer>`
 
 code sau khi sửa:
-`<header>`
-    `<div class="logo">ShopTLU</div>`
-    `<nav>`
-        `<div><a href="/">Trang chủ</a></div>`
-        `<div><a href="/products">Sản phẩm</a></div>`
-    `</nav>`
-`</header>`
-`<main>`
-    `<div class="product">`
-        `<div class="title">iPhone 16 Pro</div>`
-        `<div class="price">25.990.000đ</div>`
-        `<div class="image"><img src="iphone.jpg"></div>`
-    `</div>`
-`</main>`
-`<footer>© 2026 ShopTLU</footer>`
+```
+<header>
+    <div class="logo">ShopTLU</div>
+    <nav>
+        <div><a href="/">Trang chủ</a></div>
+        <div><a href="/products">Sản phẩm</a></div>
+    </nav>
+</header>
+<main>
+    <div class="product">
+        <div class="title">iPhone 16 Pro</div>
+        <div class="price">25.990.000đ</div>
+        <div class="image"><img src="iphone.jpg"></div>
+    </div>
+</main>
+<footer>© 2026 ShopTLU</footer>
+```
