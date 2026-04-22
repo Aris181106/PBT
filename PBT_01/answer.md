@@ -72,3 +72,10 @@ Hộp 3
 
 - Các lý do không nên dùng table để tạo layout trang web:
 
+## Câu B3:
+
+Lỗi 1 : Dòng 1 - Khai báo DOCTYPE không hợp lệ - Sửa thành `<!DOCTYPE html>`
+Lỗi 2 : Dòng 2 - Lỗi thiếu thẻ đóng cho thẻ `<html>`- Bổ sung `</html>` ở cưối code
+Lỗi 3 : Dòng 4 - Lỗi thiếu thẻ đóng cho thẻ `<title>` - Bổ sung `</title>` ở sau chữ Trang web
+Lỗi 4 : Dòng 5 - Lỗi khai báo charset chưa chuẩn - Sửa thành `<meta charset="UTF-8">`
+Lỗi 5 : 
