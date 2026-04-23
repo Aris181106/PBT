@@ -200,3 +200,15 @@ Lỗi 12 : Dòng 45 - Lỗi thiếu thẻ đóng cho thẻ `<p>` - Bổ sung `</
 </body>
 </html>
 ```
+
+## Câu C2
+
+- Quan điểm chỉ dùng thẻ `<div>` cho mọi thứ rồi thêm class, không cần học các semantic HTML vừa có mặt lợi và có mặt hại của nó. Trước hết, thẻ `<div>` không có nghĩa, chỉ nên dùng khi chia bố cục. Còn các thẻ semantic HTML bao gồm `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>` có thể giúp Google(và các trình duyệt khác) hiểu rõ về cấu trúc của trang web bạn vừa tạo.
+
+- Về SEO, lấy ví dụ với Google, Google không chỉ đọc nội dung trang web mà còn tìm hiểu về cấu trúc của trang. Nếu sử dụng các semantic hợp lý với bài viết nằm trong `<article>`, điều hướng nằm trong `<nav>`,... thì thuật toán của Google sẽ hỗ trợ index tốt hơn. Việc sử dụng quá nhiều thẻ `<div>` sẽ làm cho SEO của trang web thấp
+
+- Về Accessibility, với những người sử dụng Screen Reader(trình đọc màn hình), họ cần các thẻ semantic HTML rõ ràng để điều hướng. Với các thẻ semantic HTML, họ có thể biết họ đang ở phần nào, nội dung gì của trang web đó.
+
+Ví dụ, thay vì sử dụng `<div class = "nav">`....`</div>` thì sử dụng luôn `<nav>`....`</nav>`, vừa tiết kiệm thời gian cho lập trình viên, vừa giúp Screen Reader hiểu rằng đây chính là thanh điều hướng
+
+- Với thẻ `<div>`, vẫn có nhiều trường hợp sử dụng có ích như là khi cần một thùng chứa. Bản chất thẻ `<div>` là một block để dàn trang nên khi muốn chia các cột về mặt thẩm mỹ, không quan tâm đến nội dung thì `<div>` là thẻ tối ưu nhất
