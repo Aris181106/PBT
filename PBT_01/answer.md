@@ -72,6 +72,8 @@ Hộp 3
 
 - Các lý do không nên dùng table để tạo layout trang web:
 
+## Phần B : Thực hành CODE
+
 ## Câu B3:
 
 Lỗi 1 : Dòng 1 - Khai báo DOCTYPE không hợp lệ - Sửa thành `<!DOCTYPE html>`
@@ -101,6 +103,8 @@ Lỗi 12 : Dòng 45 - Lỗi thiếu thẻ đóng cho thẻ `<p>` - Bổ sung `</
 ## Câu B4
 
 3. Action : /tim-kiem, type : text
+
+## Phần C : Suy luận
 
 ## Câu C1
 ```
