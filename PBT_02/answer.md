@@ -79,5 +79,13 @@ Ví dụ:
 + mp4
 + ogg
 
+3. Thuộc tính alt trên `<img>` dùng để hiển thị thông tin khi ảnh gặp lỗi
 
+- alt cho ảnh iphone 16: `<img src="" alt="Iphone 16">`
+- alt cho ảnh trang trí: `<img src="" alt="Hình ảnh minh họa">`
+- alt cho ảnh biểu đồ doanh thu Q1/2026: `<img src="" alt="Doanh thu quý 1">`
 
+## Câu A5
+
+- Dùng cách 1 khi ảnh không cần mô tả, cách 2 dùng khi ảnh cần mô tả
+- Trong thực tế, cách 1 được sử dụng để làm thumbnail còn cách 2 dùng khi cần mô tả về 1 sản phẩm
